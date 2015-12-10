@@ -1,0 +1,13 @@
+{
+  "name": "Procrastinator",
+  "version": "1.0.0",
+  "description": "exstension",
+  "main": "background.js",
+
+  "preinstall": "brew update",
+  "author": "A&L",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
