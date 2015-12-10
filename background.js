@@ -1,6 +1,6 @@
 
-// console.log($);
-// $.getScript("options.js");
+
+$.getScript("options.js");
 
 
 var acceptedSitesObject= {url: jsonURLObj }; //object > array > objects
@@ -18,7 +18,7 @@ function openContents(){
 
 function acceptedURL(){ //end timer if it is recognized site
 
-	
+
 	console.log(acceptedSitesObject);
 	console.log(userInputTime);
 	var o = {frameId:0};

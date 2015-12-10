@@ -1,11 +1,12 @@
 
-
-$(document).ready(function(){
+ var jsonURLObj;
+ var item;
+ var userInputTime
+// $(document).ready(function(){
     $("form").submit(function(event){
-        // event = $("input[type=text]")
 
-        var jsonURLObj = [];
-        var item;
+        jsonURLObj = [];
+    
 
 
         $(".earls").each(function() {
@@ -20,7 +21,7 @@ $(document).ready(function(){
             jsonURLObj.push(item);
         });
 
-        var userInputTime = $("input[type=time]").val();
+        userInputTime = $("input[type=time]").val();
         // console.log(jsonURLObj);
         // console.log(userInputTime);
         event.preventDefault();
@@ -29,5 +30,5 @@ $(document).ready(function(){
 
 
 
-});
+// });
 
